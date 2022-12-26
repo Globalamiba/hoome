@@ -40,6 +40,12 @@
   display: none;
 }
 
+.company-profile-desc-div {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
 .company-profile-desc-cmp h2 {
   font-size: 0.32rem;
   margin-bottom: 0.35rem;
@@ -409,7 +415,7 @@
     position: relative;
   }
 
-  .company-profile-desc::after {
+  /* .company-profile-desc::after {
     content: "";
     position: absolute;
     right: -45px;
@@ -417,7 +423,7 @@
     height: 160px;
     background: #cdcdcd;
     opacity: 0.28;
-  }
+  } */
 
   .company-profile-desc-cmp h2 {
     font-size: 18px;
@@ -426,7 +432,6 @@
 
   .company-profile-desc-cmp p {
     font-size: 14px;
-    max-width: 320px;
   }
 
   .company-profile-fun {

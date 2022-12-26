@@ -90,8 +90,10 @@
 }
 
 .heyme-culture p {
-  font-size: 0.16rem;
-  margin-bottom: 0.3rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 0px;
 }
 
 .heyme-value-content {
