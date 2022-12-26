@@ -199,7 +199,12 @@
 
 @media screen and (min-width: 992px) {
   .heyme-value-content-item {
-    margin-right: 10%;
+    width: 33%;
+  }
+
+  .heyme-value-content-item p {
+    max-width: none !important;
+    padding: 0 10px;
   }
 }
 
