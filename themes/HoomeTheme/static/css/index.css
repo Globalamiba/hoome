@@ -35,6 +35,9 @@
 .company-profile {
   padding: 0.6rem 0;
 }
+.padding-bottom-0 {
+  padding-bottom: 0 !important;
+}
 
 .company-profile-desc img {
   display: none;
@@ -592,5 +595,14 @@
   }
   .company-rele-content-item p {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .company-profile-desc-div {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px 40px 20px;
   }
 }

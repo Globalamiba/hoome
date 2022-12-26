@@ -82,11 +82,16 @@
 }
 
 .heyme-course h4,
-.heyme-value h4,
-.heyme-culture h4 {
+.heyme-value h4 {
   text-align: center;
   font-size: 0.3rem;
   padding: 0.3rem 0;
+}
+
+.heyme-culture h4 {
+  text-align: center;
+  font-size: 0.3rem;
+  padding: 30px 0 !important;
 }
 
 .heyme-culture p {
