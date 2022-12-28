@@ -42,6 +42,11 @@
   margin-top: 75px;
 }
 
+.company-profile-li {
+  background-color: #f0f0f0 !important;
+  padding: 20px 0 20px 0 !important;
+}
+
 .company-profile-desc img {
   display: none;
 }
@@ -59,6 +64,7 @@
 
 .company-profile-desc-cmp p {
   font-size: 0.24rem;
+  text-indent: 2em;
 }
 
 .company-profile-fun {
@@ -460,6 +466,10 @@
   }
   .company-profile-fun li p {
     font-size: 16px;
+  }
+
+  .company-profile-padding {
+    padding-bottom: 0px !important;
   }
 
   .industry-info h2,
