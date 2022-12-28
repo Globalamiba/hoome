@@ -35,8 +35,11 @@
 .company-profile {
   padding: 0.6rem 0;
 }
-.padding-bottom-0 {
-  padding-bottom: 0 !important;
+
+.company-profile-ul {
+  background-color: #f0f0f0 !important;
+  padding: 50px 150px !important;
+  margin-top: 75px;
 }
 
 .company-profile-desc img {
@@ -409,7 +412,7 @@
 
   .company-profile-desc img {
     display: block;
-    width: 266px;
+    width: 8.5rem;
     margin-right: 40px;
   }
 
@@ -435,6 +438,7 @@
 
   .company-profile-desc-cmp p {
     font-size: 14px;
+    padding: 15px 0;
   }
 
   .company-profile-fun {
@@ -604,5 +608,11 @@
     align-content: center;
     flex-wrap: wrap;
     padding: 0 20px 40px 20px;
+  }
+
+  .company-profile-ul {
+    background-color: #f0f0f0 !important;
+    padding: 50px 0 !important;
+    margin-top: 75px;
   }
 }
